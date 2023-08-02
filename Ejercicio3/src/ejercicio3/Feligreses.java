@@ -14,20 +14,7 @@ public class Feligreses {
     private String nameFeligreses = "";
     private int cedula = 0;
     private int diezmo = 0;
-/*
-    public String collectFeligresesName() {
-        nameFeligreses = JOptionPane.showInputDialog("Enter the Feligreses' name");
-        return nameFeligreses;
-    }
-        public int collectFeligresesCed() {
-        cedula = Integer.parseInt(JOptionPane.showInputDialog("Enter the Feligreses' cedula"));
-        return cedula;
-    }
-        public int collectFeligresesDie() {
-        diezmo = Integer.parseInt(JOptionPane.showInputDialog("Enter the Feligreses' diezmo"));
-        return diezmo;
-    }
-*/
+    
     
     public Feligreses(String nameFeligreses, int cedula, int diezmo) {
         this.nameFeligreses = nameFeligreses;
